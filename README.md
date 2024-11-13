@@ -40,3 +40,12 @@ ex) h1은 대제목이다.(0) , h1은 글자가 크고 굵다 (x)
 * 'br' = 줄바꿈 태그 -inline
 * 'strong' = 경고 등 심각성이 있는 강조 태그 - inline/ 제목에 사용 X
 * 'em' = 문맥 내 강조 표시 태그 (1순위) - inline / 제목에 사용 X
+* 'blockquote' = 인용
+* 'q' = 문단 내 인용/ inline
+* 'sup', 'sub'= 제곱 위 아래
+* 'code' = &lt 랑 같이 쓰는 거
+* 'mark'= 형광펜
+* '&lt', '&gt', '&copy;' = < > c
+* 'hr'= 경계선
+* 'address' = 자사 주소/ 연락처
+* 'del' = 글자 삭제 빗금
