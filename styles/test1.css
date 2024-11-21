@@ -1,0 +1,18 @@
+/* 외부스타일!!!!!!!!!!!!!!!!!!!!!! */
+/* 오직 선택자/속성/값만 */
+/* <head><body> X */
+
+body {
+    background-color: lightgray;
+}
+
+p {color: red; background-color: aqua;}
+
+.info {
+    color: aquamarine;
+    background-color: antiquewhite;
+}
+
+#wrap {
+    color: pink;
+}

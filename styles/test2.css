@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(79, 94, 99)
+}
+
+.group1 {
+    background-color: rgb(197, 255, 90);
+}
+
+#group2 {
+    background-color: rgb(238, 255, 0);
+}
+
+h1 {
+    background-color: palevioletred;
+}
+
+h2 {
+    background-color: blanchedalmond;
+}
+
+span {
+    background-color: lightsalmon;
+}
