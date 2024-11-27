@@ -1,0 +1,49 @@
+.profile_wrap {
+    background-color: #f5f5f5;
+}
+.profile_wrap h1 {
+    font-family: Knewave, Noto Sans KR;
+    font-size: 3.81rem;
+    letter-spacing: 0.04rem;
+    line-height: 1.20;
+    color: #C53C74
+}
+.profile_wrap .ambition {
+    font-size:1.56rem ;
+    line-height: 120%;
+}
+.profile_wrap .ambition em {
+    font-weight: 600;
+    color: #C53C74
+}
+.profile_wrap .profile_main {}
+.profile_wrap .profile_main p {}
+.profile_wrap .profile_main p img {}
+.profile_wrap .profile_main .profile_main_detail {}
+.profile_wrap .profile_main .profile_main_detail li {
+    line-height: 1.72;
+    letter-spacing: -0.02%;
+}
+.profile_wrap .experience_wrap {}
+.profile_wrap .experience_wrap h2 {
+    font-size: 1.94rem;
+    font-family: Knewave, Noto Sans KR;
+    color: #C53C74
+}
+.profile_wrap .experience_wrap .experience {}
+.profile_wrap .experience_wrap .experience li {
+    line-height: 1.9;
+    letter-spacing: -0.02%;
+}
+.profile_wrap .experience_wrap .experience li span {}
+.profile_wrap .license_wrap {}
+.profile_wrap .license_wrap h2 {
+    font-size: 1.94rem;
+    font-family: Knewave, Noto Sans KR;
+    color: #C53C74
+}
+.profile_wrap .license_wrap .license {}
+.profile_wrap .license_wrap .license li {
+    line-height: 190%;
+}
+.profile_wrap .license_wrap .license li span {}

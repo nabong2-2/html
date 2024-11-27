@@ -1,0 +1,54 @@
+.profile {}
+.profile h1 {
+    /* font-family:"Noto Sans KR", "맑은 고딕", sans-serif; */
+    font-weight: 700;
+    font-size: 2.0rem;
+    color: #4682A9; /* /32px을 변환한 값임 */
+    /* letter-spacing: -0.02rem; */
+    /* 글꼴은 개인소유의 유무료 글꼴은 사용 X */
+    /* 기본 컴퓨터 설치글꼴(고딕,굴림,바탕,궁서,맑은고딕 등)을 제외한 디자인 글꼴을 사용하고 싶다면 웹글꼴이 좋다. */
+    /* 글꼴명에 따옴표를 붙이는 경우는 한글/공백이 있을 때만 */
+    /* 글자 굵기 기본값=400 700은 bold */
+}
+.profile .ambition_g {}
+.profile .ambition_g .photo {}
+.profile .ambition_g .photo img {}
+.profile .ambition_g .ambition {
+    font-size: 2.13rem;
+    line-height: 120%;
+    /* letter-spacing: -0.02rem;  */
+}
+.profile .ambition_g .ambition em {
+    font-weight: 700;
+    color: #4682A9;
+}
+.profile .basic {
+    font-size: 1.25rem;
+}
+.profile .basic li {line-height: 1.7}
+/* 행간 설정 시 부모와 자식 선택자 중에 고민된다면 가로 1행을 묶고 있는 근접한 요소 기준으로 설정하는 것이 좋다 */
+.profile h2 {
+    font-weight: 600;
+    font-size: 1.88rem;
+    color: #4682A9;
+}
+.profile .experience {}
+.profile .experience li {
+    font-size: 1.06rem;
+    line-height: 1.5;
+    letter-spacing: -0.02rem;
+    /* word-spacing: 5px; */
+}
+.profile .experience li .data {
+    font-weight: 500;
+}
+.profile .experience li .name {}
+.profile .license {}
+.profile .license li {
+    font-size: 1.06rem;
+    line-height: 1.5;
+}
+.profile .license li .data {
+    font-weight: 500;
+}
+.profile .license li .name {}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display 연습</title>
+    <style>
+        #wrap {
+            background-color: lightgrey;
+            padding: 20px 20px 0 0;
+        }
+        #wrap .contents {
+            background-color: lightpink;
+            text-align: right;
+            padding-right:20px;
+        }
+        #wrap .contents h1 {
+            text-align: center;
+            width:200px;
+            height: 200px;
+            background-color: purple;
+            color:white;
+            border-radius: 100px; /* 무조건 절반 ,50%로 */
+        }
+        #wrap .contents .menu {
+            background-color: lavender;
+            text-align: center;
+        }
+        #wrap .contents .menu li {
+        }
+        #wrap .contents .menu li:nth-child(1) {
+            border-bottom: 5px dashed red
+        }
+        #wrap .contents .menu li:nth-child(2) {}
+        #wrap .contents p {
+            background-color: lemonchiffon;
+            padding: 20px 10px 20px 10px;
+        }
+        #wrap .contents p:nth-of-type(1) {
+            display: inline-block;
+        }
+        #wrap .contents p:nth-of-type(2) {
+            display: inline-block;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div class="contents">
+            <h1>제목</h1>
+            <ul class="menu">
+                <li>메뉴1</li>
+                <li>메뉴2</li>
+            </ul>
+            <p>보조메뉴1</p>
+            <p>보조메뉴2</p>
+        </div>
+    </div>
+</body>
+</html>

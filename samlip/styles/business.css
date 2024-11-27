@@ -1,0 +1,82 @@
+#wrap {
+    background-color: lightblue;}
+#wrap header  {
+    background-color: aqua;
+}
+#wrap header h1 {}
+#wrap header h1 a {}
+#wrap header h1 a img {}
+#wrap header nav {
+    background-color: blue;
+}
+#wrap header nav ul {}
+#wrap header nav ul li {}
+#wrap header nav ul li a {}
+#wrap header .left_menu {
+    background-color: beige;
+}
+#wrap header .left_menu a {}
+#wrap header .left_menu ul {}
+#wrap header .left_menu ul li {}
+#wrap header .left_menu ul li a {}
+#wrap header .left_menu ul li a img {}
+/* ===========================================main */
+#wrap main {
+    background-color: yellow;
+}
+#wrap main .path {
+    background-color: lawngreen;
+}
+#wrap main .path a {}
+#wrap main .path img {}
+#wrap main .path em {}
+#wrap main h1 {
+    background-color: blueviolet;
+}
+#wrap main > p {
+    background-color: lightblue;
+}
+#wrap main .bg {
+    background-color: orange;
+}
+#wrap main .bg ul {
+    background-color: aqua;
+}
+#wrap main .bg ul li {
+    background-color: lightcoral;
+}
+/* p 여러개일 예정 */
+#wrap main .bg ul li p {}
+#wrap main .bg ul li p img {}
+#wrap main .bg ul li .food_business {}
+#wrap main .bg ul li .food_business .sq {}
+#wrap main .bg ul li .food_business h2 {}
+#wrap main .bg ul li .food_business p {}
+#wrap main .bg ul li .store_business {}
+#wrap main .bg ul li .store_business .sq {}
+#wrap main .bg ul li .store_business h2 {}
+#wrap main .bg ul li .store_business p {}
+#wrap main .bg ul li .connection_business {}
+#wrap main .bg ul li .connection_business .sq {}
+#wrap main .bg ul li .connection_business h2 {}
+#wrap main .bg ul li .connection_business p {}
+#wrap main .bg ul li .service_business {}
+#wrap main .bg ul li .service_business .sq {}
+#wrap main .bg ul li .service_business h2 {}
+#wrap main .bg ul li .service_business p {}
+#wrap main .bg ul li .export_business {}
+#wrap main .bg ul li .export_business .sq {}
+#wrap main .bg ul li .export_business h2 {}
+#wrap main .bg ul li .export_business p {}
+/* =====================================footer */
+#wrap footer {}
+#wrap footer .left_ft {}
+#wrap footer .left_ft .top_ft {}
+#wrap footer .left_ft .top_ft a {}
+#wrap footer .left_ft .top_ft a img {}
+#wrap footer .left_ft address {}
+#wrap footer .left_ft address em {}
+#wrap footer .left_ft address p {}
+#wrap footer .right_ft {}
+#wrap footer .right_ft a {}
+#wrap footer .right_ft a img {}
