@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>신한은행PG</title>
+    <!-- 파비콘 -->
+    <link rel="shortcut_icon" href="./images/shc_symbol.png" type="image/x-icon">
+    <link rel="icon" href="./images/shc_symbol.png" type="image/x-icon">
+    <!-- 글꼴 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <!-- 스타일 시트 -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <h1><a href="#"><img src="./images/logo.png" alt="로고"></a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#">서비스소개</a></li>
+                    <li><a href="#">서비스신청</a></li>
+                    <li><a href="#">고객센터</a></li>
+                    <li><a href="#">개발자센터</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!-- ========================= 1 -->
+            <div class="container pay">
+                <div class="contents">
+                    <div class="txt">
+                        <h1>결제에 <span>믿음</span>과<br><span>편리함</span>을 더하다</h1>
+                        <p>결제 중 고객 이탈 없는 빠르고 편리한 간편결제!<br>보안의 차원이 다릅니다.</p>
+                        <div class="bnr_btn_wrap">
+                            <a href="#" class="prev"><img src="./images/left.png" alt="이전보기"></a>
+                            <!-- 프로그레스 바(진행중인 애니메이션 및 전송상황 등의 명칭) -->
+                            <span class="progress"></span>
+                            <span class="progress"></span>
+                            <span class="progress"></span>
+                            <a href="#" class="pause"><img src="./images/pause.png" alt="일시정지"></a>
+                            <a href="#" class="next"><img src="./images/right.png" alt="다음보기"></a>
+                        </div>
+                    </div>
+                    <div class="scroll">
+                        <span>scroll down</span>
+                        <!-- 동적처리 대상은 이미지가 아닌 css처리를 위한 태그로 구성한다. -->
+                        <span class="scroll_bg"> <!-- 스크롤배경막대 -->
+                            <span class="bar"></span> <!-- 움직이는 스크롤 원 모양 -->
+                        </span>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- =========================2 -->
+            <div class="container service"></div>
+            <!-- =========================3 -->
+            <div class="container different"></div>
+            <!-- =========================4 -->
+            <div class="container question"></div>
+        </main>
+        <footer></footer>
+    </div>
+</body>
+</html>

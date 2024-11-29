@@ -3,7 +3,9 @@
 #wrap header {
     background-color:aqua;
 }
-#wrap header h1 {}
+#wrap header h1 {
+    
+}
 #wrap header h1 a {}
 #wrap header h1 a img {}
 #wrap header nav {
@@ -41,6 +43,8 @@
 }
 #wrap main .path img {
     margin: 0 12px; /* img만 여백.크기 가능 */
+    position: relative;
+    top:2.5px;
 }
 #wrap main h1 {
     font-size: 3.13rem;
@@ -134,20 +138,25 @@
 
 #wrap main .bg .strategy_contents {
     margin-bottom: 100px;
+    /* width: max-content; */
+    /* margin: 0 auto; */
+    display: inline-block;
 }
-/* #wrap main .bg .strategy_contents * {
-} */
+#wrap main .bg .strategy_contents::after {
+    clear:both; display:block; content:'';
+}
 #wrap main .bg .strategy_contents li {
     background-color: #eee;
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    display: inline-block;
+    /* display: inline-block; */
     margin-left: -10px;
     line-height: 1.5;
     /* padding-top: 47.5px; */
     padding: 47.5px 15px 0 15px;
     box-shadow:0 0 10px rgba(0,0,0,0.2);
+    float: left;
 }
 #wrap main .bg .strategy_contents li:nth-child(5) {
     padding: 34px 15px 0 15px;

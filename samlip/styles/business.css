@@ -22,54 +22,252 @@
 #wrap header .left_menu ul li a img {}
 /* ===========================================main */
 #wrap main {
-    background-color: yellow;
+    background-color: yellowgreen;
 }
 #wrap main .path {
-    background-color: lawngreen;
+    background-color: #F9F9F9;
+    text-align: right;
+    margin-top: 19px;
 }
-#wrap main .path a {}
-#wrap main .path img {}
-#wrap main .path em {}
+#wrap main .path a {
+    font-size: 0.88rem;
+    letter-spacing: -0.02rem;
+    color: #555555;
+}
+#wrap main .path img {
+    margin: 0 12px 0 12px;
+    width: 14px;
+    height: 14px;
+}
+#wrap main .path em {font-weight: 600;}
 #wrap main h1 {
     background-color: blueviolet;
+    font-size: 2.50rem;
+    font-weight: 700;
+    letter-spacing: -0.02rem;
+    margin: 80px 0 25px 0;
+    text-align: center;
 }
 #wrap main > p {
     background-color: lightblue;
+    font-weight: 500;
+    letter-spacing: -0.02rem;
+    margin-bottom: 50px;
+    text-align: center;
 }
 #wrap main .bg {
-    background-color: orange;
+    background-color: #F9F9F9;
 }
 #wrap main .bg ul {
-    background-color: aqua;
+    background-color: lightgray;
+    padding-top: 66px;
 }
-#wrap main .bg ul li {
+/* 11111111111111111111111111111111111111111 */
+#wrap main .bg ul .business_info1 {
+    background-color: limegreen;
+    width: 1040px;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 100px;
+}
+#wrap main .bg ul .business_info1 > p {
+    display: inline-block;
+}
+
+#wrap main .bg ul .business_info1 p img {
+}
+#wrap main .bg ul .business_info1 .food_business {
+    background-color: yellow;
+    display: inline-block;
+    width: 358px;
+    /* height: 296px; */
+    margin-left: 20px;
+}
+#wrap main .bg ul .business_info1 .food_business .sq {
     background-color: lightcoral;
+    font-size: 6.25rem;
+    font-weight: 700;
+    letter-spacing: -0.5rem;
+    margin-bottom: -40px;
+    color: rgba(0,0,0,0.1);
 }
-/* p 여러개일 예정 */
-#wrap main .bg ul li p {}
-#wrap main .bg ul li p img {}
-#wrap main .bg ul li .food_business {}
-#wrap main .bg ul li .food_business .sq {}
-#wrap main .bg ul li .food_business h2 {}
-#wrap main .bg ul li .food_business p {}
-#wrap main .bg ul li .store_business {}
-#wrap main .bg ul li .store_business .sq {}
-#wrap main .bg ul li .store_business h2 {}
-#wrap main .bg ul li .store_business p {}
-#wrap main .bg ul li .connection_business {}
-#wrap main .bg ul li .connection_business .sq {}
-#wrap main .bg ul li .connection_business h2 {}
-#wrap main .bg ul li .connection_business p {}
-#wrap main .bg ul li .service_business {}
-#wrap main .bg ul li .service_business .sq {}
-#wrap main .bg ul li .service_business h2 {}
-#wrap main .bg ul li .service_business p {}
-#wrap main .bg ul li .export_business {}
-#wrap main .bg ul li .export_business .sq {}
-#wrap main .bg ul li .export_business h2 {}
-#wrap main .bg ul li .export_business p {}
+
+#wrap main .bg ul .business_info1 .food_business h2 {
+    background-color: palevioletred;
+    font-size: 1.88rem;
+    font-weight: 600;
+    letter-spacing: -0.02rem;
+    margin-bottom: 30px;
+
+}
+#wrap main .bg ul .business_info1 .food_business p {
+    background-color: black;
+    color: wheat;
+    line-height: 1.7;
+    letter-spacing: -0.1rem;
+    color: #555555;
+
+}
+/* 2222222222222222222222222222222222222 */
+#wrap main .bg ul .business_info2 {
+    background-color: greenyellow;
+    width: 1040px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+#wrap main .bg ul .business_info2 .store_business {
+    background-color: green;
+    display: inline-block;
+    width: 350px;
+    margin-right: 20px;
+}
+#wrap main .bg ul .business_info2 .store_business .sq {
+    background-color: blue;
+    font-size: 6.25rem;
+    font-weight: 700;
+    color: rgba(0,0,0,0.1);
+    letter-spacing: -0.5rem;
+    margin-bottom: -40px;
+}
+#wrap main .bg ul .business_info2 .store_business h2 {
+    background-color: pink;
+    font-size: 1.88rem;
+    font-weight: 600;
+    letter-spacing: -0.02rem;
+    margin-bottom: 30px;
+}
+#wrap main .bg ul .business_info2 .store_business p {
+    background-color: black;
+    color: wheat;
+    line-height: 1.7;
+    letter-spacing: -0.1rem;
+    color: #555555;
+}
+#wrap main .bg ul .business_info2 > p {
+    display: inline-block;
+}
+#wrap main .bg ul .business_info2 p img {}
+/* 333333333333333333333333333333 */
+#wrap main .bg ul .business_info3 {
+    background-color: limegreen;
+    width: 1040px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+#wrap main .bg ul .business_info3 > p {
+    display: inline-block;
+}
+#wrap main .bg ul .business_info3 p img {}
+#wrap main .bg ul .business_info3 .connection_business {
+    background-color: floralwhite;
+    display: inline-block;
+    width: 350px;
+    margin-left: 20px;
+}
+#wrap main .bg ul .business_info3 .connection_business .sq {
+    background-color: skyblue;
+    font-size: 6.25rem;
+    font-weight: 700;
+    color: rgba(0,0,0,0.1);
+    letter-spacing: -0.5rem;
+    margin-bottom: -40px;
+}
+#wrap main .bg ul .business_info3 .connection_business h2 {
+    background-color: plum;
+    font-size: 1.88rem;
+    font-weight: 600;
+    letter-spacing: -0.02rem;
+    margin-bottom: 30px;
+}
+#wrap main .bg ul .business_info3 .connection_business p {
+    background-color: black;
+    color: wheat;
+    line-height: 1.7;
+    letter-spacing: -0.1rem;
+    color: #555555;
+}
+/* 44444444444444444444444444444444444444444444444 */
+#wrap main .bg ul .business_info4 {
+    background-color: greenyellow;
+    width: 1040px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+#wrap main .bg ul .business_info4 .service_business {
+    background-color: palegreen;
+    display: inline-block;
+    width: 350px;
+    margin-right: 20px;
+}
+#wrap main .bg ul .business_info4 .service_business .sq {
+    background-color: pink;
+    font-size: 6.25rem;
+    font-weight: 700;
+    color: rgba(0,0,0,0.1);
+    letter-spacing: -0.5rem;
+    margin-bottom: -40px;
+}
+#wrap main .bg ul .business_info4 .service_business h2 {
+    background-color: purple;
+    font-size: 1.88rem;
+    font-weight: 600;
+    letter-spacing: -0.02rem;
+    margin-bottom: 30px;
+}
+#wrap main .bg ul .business_info4 .service_business p {
+    background-color: black;
+    color: wheat;
+    line-height: 1.7;
+    letter-spacing: -0.1rem;
+    color: #555555;
+}
+#wrap main .bg ul .business_info4 > p {
+    display: inline-block;
+}
+#wrap main .bg ul .business_info4 p img {}
+/* 55555555555555555555555555555555555555555555555555 */
+#wrap main .bg ul .business_info5 {
+    background-color: limegreen;
+    width: 1040px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+#wrap main .bg ul .business_info5 > p {
+    display: inline-block;
+}
+#wrap main .bg ul .business_info5 p img {}
+#wrap main .bg ul .business_info5 .export_business {
+    background-color: orange;
+    display: inline-block;
+    width: 350px;
+    margin-left: 20px;
+}
+#wrap main .bg ul .business_info5 .export_business .sq {
+    background-color: aquamarine;
+    font-size: 6.25rem;
+    font-weight: 700;
+    color: rgba(0,0,0,0.1);
+    letter-spacing: -0.5rem;
+    margin-bottom: -40px;
+}
+#wrap main .bg ul .business_info5 .export_business h2 {
+    background-color: hotpink;
+    font-size: 1.88rem;
+    font-weight: 600;
+    letter-spacing: -0.02rem;
+    margin-bottom: 30px;
+}
+#wrap main .bg ul .business_info5 .export_business p {
+    background-color: black;
+    color: wheat;
+    line-height: 1.7;
+    letter-spacing: -0.1rem;
+    color: #555555;
+}
 /* =====================================footer */
-#wrap footer {}
+#wrap footer {
+    background-color: lemonchiffon;
+}
 #wrap footer .left_ft {}
 #wrap footer .left_ft .top_ft {}
 #wrap footer .left_ft .top_ft a {}

@@ -1,0 +1,96 @@
+#wrap {}
+#wrap header {}
+#wrap main {}
+#wrap main .path {
+    background-color: #f9f9f9;
+    text-align: right;
+    padding: 10px 0;
+}
+#wrap main .path a {
+    font-size: 0.88rem;
+    letter-spacing: -0.02rem;
+}
+#wrap main .path img {
+    width: 14px;
+    height: 14px;
+    margin: 0 12px;
+}
+#wrap main .path em {
+    font-weight: 600;
+    font-size: 0.88rem;
+    letter-spacing: -0.02rem;
+}
+#wrap main h1 {
+    font-size: 3.13rem;
+    font-weight: 700;
+    letter-spacing: -0.02rem;
+    text-align: center;
+    margin: 158px 0 25px 0;
+}
+#wrap main > p {
+    font-size: 1.19rem;
+    font-weight: 500;
+    letter-spacing: -0.02rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+#wrap main .bg {
+    background-color: #f9f9f9;
+}
+#wrap main .bg .corporate {
+    background-color: yellow;
+    width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#wrap main .bg .corporate li {
+    background-color: aquamarine;
+    width: 250px;
+    height: 250px;
+    border: 1px solid #888;
+    background-repeat: no-repeat;
+    background-position: 80% 85%;
+    background-size: 100px auto;
+    background-image: url(../images/info/cr01.png);
+    padding: 30px;
+    /* display: inline-block; */
+    /* 이거 대신 플로트 쓰기 */
+    margin-right: 42.5px;
+    float: left;
+}
+/* #wrap main .bg .corporate li:nth-child(1) {
+    background-image: url(../images/info/cr01.png);
+    background-repeat: no-repeat;
+
+    background-position: 80% 80%;
+}
+#wrap main .bg .corporate li:nth-child(2) {
+    background-image: url(../images/info/cr02.png);
+    background-repeat: no-repeat;
+    background-position: 80% 80%;
+}
+#wrap main .bg .corporate li:nth-child(3) {
+    background-image: url(../images/info/cr03.png);
+    background-repeat: no-repeat;
+    background-position: 80% 80%;
+}
+#wrap main .bg .corporate li:nth-child(4) {
+    background: url(../images/info/cr01.png) no-repeat 80% 80%;
+    } */
+    
+#wrap main .bg .corporate li:nth-child(1) {
+}
+#wrap main .bg .corporate li:nth-child(2) {
+    background-image: url(../images/info/cr02.png);
+}
+#wrap main .bg .corporate li:nth-child(3) {
+    background-image: url(../images/info/cr03.png);
+
+}
+#wrap main .bg .corporate li:nth-child(4) {
+    margin: 0;
+}
+
+#wrap main .bg .corporate li h2 {}
+#wrap main .bg .corporate li p {}
+#wrap footer {}
