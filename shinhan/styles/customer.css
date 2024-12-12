@@ -1,0 +1,216 @@
+#wrap {}
+#wrap header {
+    height: 80px;
+    overflow: hidden;
+    padding: 0 80px;
+    width: 100%; left: 0; top: 0;
+}
+#wrap header h1 {float: left; padding-top: 24px; }
+#wrap header h1 a {}
+#wrap header h1 a img {}
+#wrap header nav {float: right; padding-top: 21px;}
+#wrap header nav ul {
+}
+#wrap header nav ul li {
+    float: left; margin: 10px 0 0 60px;
+}
+#wrap header nav ul li:first-child {
+    margin-left: 0;
+}
+#wrap header nav ul .developer_center {
+    padding: 10px 20px;
+    border: 1px solid #0046FF;
+    color: #0046FF;
+    border-radius: 20px;
+    position: relative;
+    bottom: 10px;
+}
+#wrap header nav ul li a {
+    font-weight: 600; font-size: 1.13rem; letter-spacing: -0.01rem;
+
+}
+/* main */
+#wrap main {}
+/* 배너 */
+#wrap main .title_bnr {
+    height: 300px;
+    background-image: url('../images/customer/title.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 98px;
+    position: relative;
+}
+/* 가상자식을 생성해서 배경색 어둡게(반투명하게) */
+#wrap main .title_bnr::after {
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 300px;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: 10;
+}
+#wrap main .title_bnr h1 {
+    position: relative;
+    z-index: 20;
+    font-size: 3.00rem;
+    font-weight: 600;
+    letter-spacing: -0.02rem;
+    color: #fff;
+    margin-bottom: 30px;
+    
+}
+#wrap main .title_bnr p {
+    position: relative;
+    z-index: 20;
+    font-size: 1.56rem;
+    font-weight: 500;
+    letter-spacing: -0.02rem;
+    color: #fff;
+}
+/* ====================================메뉴 */
+#wrap main .tab_menu {padding: 100px 0 25px; text-align: center;}
+#wrap main .tab_menu .active {
+    background-color: #0046FF; color: #fff;
+    border-radius: 20px;
+    font-weight: 600; font-size: 1.13rem; letter-spacing: -0.02rem;
+}
+#wrap main .tab_menu a {
+    padding: 12px 32px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    font-weight: 600; font-size: 1.13rem; letter-spacing: -0.02rem;
+    display: inline-block;
+}
+#wrap main .tab_menu a:nth-child(2) {margin: 0 12px;}
+/*============== 활성화 내용 */
+/* 서브페이지 기준 로그인, 회원가입, 게시판 등으로 form 위주로 구성된 페이지는 form의 너비가 넓을 수록 시각적으로 보기 좋지 않아 실제 사이트 너비보다 작게 사용하는 경우가 많다. */
+#wrap main .tab_container {
+    width: 720px;
+    margin: 0 auto;
+}
+#wrap main .tab_container #creditCardFrm {}
+#wrap main .tab_container #creditCardFrm dl {}
+#wrap main .tab_container #creditCardFrm dl dt {
+    margin-bottom: 12px;
+    font-size: 1.13;
+    font-weight: 600;
+    letter-spacing: -0.02rem;
+}
+#wrap main .tab_container #creditCardFrm dl dd {
+    margin-bottom: 25px;
+    position: relative;
+}
+#wrap main .tab_container #creditCardFrm dl dd input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: #aaa;
+    letter-spacing: -0.02rem;
+}
+#wrap main .tab_container #creditCardFrm dl dd input[name=num] {}
+#wrap main .tab_container #creditCardFrm dl dd input[name=maney] {}
+#wrap main .tab_container #creditCardFrm dl dd input[name=day] {
+    color: #000;
+    background: #fff url(../images/customer/calendar_month.png) no-repeat 20px center;
+    padding-left: 55px;
+}
+#wrap main .tab_container #creditCardFrm dl dd input[name=day]::-webkit-calendar-picker-indicator {
+    background:none;
+    position: absolute;
+    width: 100%;
+}
+#wrap main .tab_container #creditCardFrm ul {
+    margin-top: 17px;
+    padding-bottom: 25px;
+}
+#wrap main .tab_container #creditCardFrm ul li {
+    font-size: 0.81rem;
+    letter-spacing: -0.05rem;
+    color: #888;
+    background-image: url('../images/customer/kid_star.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 18px;
+}
+#wrap main .tab_container #creditCardFrm ul li:nth-child(2) {margin: 16px 0;}
+#wrap main .tab_container #creditCardFrm h2 {
+    margin: 40px 0 17px;
+    font-size: 1.13rem; font-weight: 600; letter-spacing: -0.02rem;
+}
+/* ===========박스 */
+#wrap main .tab_container #creditCardFrm .consent_box {
+    height: 238px;
+    overflow:auto;
+    border: 1px solid #aaa; border-right:0; border-left: 0; 
+    border-radius: 20px;
+    padding: 20px;
+}
+#wrap main .tab_container #creditCardFrm .consent_box h3{}
+#wrap main .tab_container #creditCardFrm .consent_box h3,
+#wrap main .tab_container #creditCardFrm .consent_box h4 {
+    font-size: 0.88rem; font-weight: 600; letter-spacing: -0.02rem;
+}
+#wrap main .tab_container #creditCardFrm .consent_box p {
+    font-size: 0.88rem; letter-spacing: -0.02rem; line-height: 1.4; color: #888;
+    margin: 20px 0;
+    
+}
+#wrap main .tab_container #creditCardFrm .consent_box h4 {
+    margin-bottom: 20px;
+}
+/*====================== tbody 표 */
+#wrap main .tab_container #creditCardFrm .consent_box .info {
+    border: 1px solid #aaa;
+}
+#wrap main .tab_container #creditCardFrm .consent_box .info tbody {}
+#wrap main .tab_container #creditCardFrm .consent_box .info tbody tr {
+    border-bottom: 1px solid #aaa;
+}
+#wrap main .tab_container #creditCardFrm .consent_box .info tbody tr th {
+    width: 150px;
+    border-right: 1px solid #aaa;
+}
+#wrap main .tab_container #creditCardFrm .consent_box .info tbody tr td {
+    width: 520px;
+}
+#wrap main .tab_container #creditCardFrm .consent_box .info tbody tr th,
+#wrap main .tab_container #creditCardFrm .consent_box .info tbody tr td {
+    padding: 15px 0 15px 10px;
+    font-size: 0.81rem; font-weight: 500; letter-spacing: -0.02rem;
+    text-align: left;
+} 
+#wrap main .tab_container #creditCardFrm .all_agree_box {
+    letter-spacing: -0.02rem;
+    margin: 15px 0 100px;
+}
+#wrap main .tab_container #creditCardFrm .all_agree_box #agree {}
+#wrap main .tab_container #creditCardFrm .all_agree_box label {
+    background-image: url('../images/customer/check_box_any.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 30px;
+}
+/* input radio, checkbox 는 css 개별 디자인이 불가능하기 때문에 항상 input 의 형제가 되는 또다른 요소를 생성해서 (label, span 등)배경이미지로 연결해야한다. */
+/* input 형제요소를 생성했다면 그 형제요소선택자는 input 비활성화 배경이미지를 가지고 input:checked 상태선택자를 활용하여 선택됐을 시 활성화 배경이미지로 변경해준다. */
+#wrap main .tab_container #creditCardFrm .all_agree_box #agree:checked {
+    background-image: url('../images/customer/check_box.png');
+}
+/* 조회하기 */
+#wrap main .tab_container #creditCardFrm .btn {
+    text-align: center;
+    background-color: thistle;
+    width: 160px;
+    margin: 0 auto;
+    padding: 16px 0;
+    border-radius: 8px;
+    background-color: #0046ff;
+}
+#wrap main .tab_container #creditCardFrm .btn .about_btn {
+    font-size: 0.88rem; font-weight: 700; letter-spacing: -0.02rem;
+    color: #fff;
+}

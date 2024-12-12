@@ -1,0 +1,126 @@
+body {
+    background-color: #222;
+}
+main {
+    width: 502px;
+    margin: 97px auto 36px;
+}
+main h1 {text-align: center; margin-bottom: 87px;}
+main h1 a {}
+main h1 a img {}
+main .sign {
+    background-color: lemonchiffon;
+    
+}
+main .sign h2 {
+    display: inline-block; 
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: -0.02rem;
+    text-align: center;
+}
+main .sign h2:nth-child(1) {
+    margin-right: 136px;
+}
+/* =================공통 */
+main h3 {
+    margin: 20px 0 5px;
+    font-size: 1.25rem;
+    letter-spacing: -0.02rem;
+    color: #fff;
+    display: inline-block;
+}
+main .bottom_text {background-color: thistle;}
+/* ============아이디+폰넘버 공통 */
+main .idWrap {
+    overflow: hidden;
+}
+main input[name=middlebox] {
+    width: 360px;
+    float: left;
+    padding: 15px 0 15px 18px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+main input[name=middlebox]::placeholder {
+    color: #888;
+    letter-spacing: -0.02rem;
+    font-weight: 500;
+}
+main .checkBox {
+    float: right;
+    background-color: #888;
+    border-radius: 10px;
+    padding: 14px 30px;
+    font-size: 1.13rem;
+    font-weight: 700;
+    color: #ccc;
+    letter-spacing: -0.02rem;
+}
+main .bottom_text {
+    /* =================================이게뭐ㅗㄲ... */
+    clear: both;
+    background-color: lightgreen;
+    margin-top: 7px;
+    font-size: 0.81rem;
+    letter-spacing: -0.02rem;
+    color: #ccc;
+    display: block;
+}
+/* ============비밀번호 */
+main .pwWrap {background-color: lawngreen;}
+main .pwWrap input {
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 15px 0 15px 18px;
+    display: block;
+    width: 100%;
+}
+main .pwWrap input:nth-child(2) {
+    margin: 13px 0 5px 0 ;
+}
+main .pwWrap input::placeholder {
+    letter-spacing: -0.02rem;
+    color: #888;
+    font-weight: 500;
+}
+main .pwWrap .bottom_text {}
+/* =========이메일 */
+main .emailWrap {
+    background-color: blue;
+    overflow: hidden;
+}
+main .emailWrap input {
+    width: 230px;
+    padding: 15px 0 15px 18px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+main .emailWrap input[name=smallbox1] {
+    float: left;
+}
+main .emailWrap input::placeholder {
+    color: #888;
+    letter-spacing: -0.02rem;
+    font-weight: 500;
+}
+main .emailWrap .whelk {}
+main .emailWrap .smallBox2 {
+    float: right; /* 시발 */
+}
+/* =============폰넘버 */
+main .phoneWrap {background-color:lawngreen;}
+/*================= 가입완료 */
+main .signBox {
+    margin: 60px 0 36px 0;
+    padding: 10px 30px;
+    border-radius: 8px;
+    background-color: #888;
+}
+main .signBox p {
+    text-transform: uppercase;
+    font-size: 1.13rem;
+    color: #ccc;
+    letter-spacing: 0.02rem;
+    text-align: center;
+}

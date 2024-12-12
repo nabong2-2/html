@@ -1,0 +1,45 @@
+.book {
+    border-radius: 24px;
+    overflow: hidden;
+    margin: 206px auto;
+}
+.book tr:first-child th {
+    font-size: 1.13rem;
+    font-weight: 700;
+    color: #fff ;
+    background-color: #FF0066;
+    padding: 20px 16px;
+    width: 100px;
+    text-align: center;
+    margin: 10px;
+}
+.book tr th:first-child {
+    width: 250px;
+}
+.book tr:nth-child(3) {
+    color: #FF0066;
+    border: 2px solid #FF0066;
+}
+.book tr td {
+    text-align: center;
+}
+
+.book tr td, th {
+    background-color: #F2F2F2;
+    font-weight: 500;
+    padding: 16px;
+}
+.book tr:nth-child(3) *, .book tr:nth-child(5) * {
+    background-color: #E8E8E8;
+}
+
+
+/* .book {margin: 206px auto 0;}
+.book tr { background-color: #F2F2F2;}
+.book tr:first-child {background-color: #FF0066;}
+.book tr:nth-child(3),
+.book tr:nth-child(5) {
+    background-color: #E8E8E8;
+}
+.book tr th:first-child {width: 250px;}
+.book tr td {width: 100px;} */

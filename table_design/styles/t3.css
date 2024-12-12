@@ -1,0 +1,59 @@
+.plan {
+    width: 1110px;
+    margin: 170px auto 0;
+}
+.plan thead {
+    background-color: #FAFAFA;
+    border: 2px solid #555;
+    border-right: 0; border-left: 0;
+}
+.plan thead tr {}
+.plan thead tr th {}
+.plan thead tr th:first-child {}
+.plan thead tr:first-child th:nth-child(2) {
+    margin: 12px; padding: 30px 0;
+    border-bottom: 2px dashed #555555
+}
+.plan thead tr th img {position: relative; left:95px;top: 10px;}
+.plan thead tr th * {
+    text-align: center;
+}
+.plan thead tr th h1 {
+    font-size: 1.25rem;
+    font-weight: 600; margin-bottom: 12px ;
+}
+.plan thead tr th p {
+    color: #777;
+}
+.plan thead tr:nth-child(2) th {padding: 20px 0;}
+.plan thead tr th h2 {
+    text-align: center;
+}
+.plan thead tr:nth-child(2) th h2:first-child {
+    font-size: 1.13rem; font-weight: 600; line-height: 1.5;
+}
+.plan thead tr:nth-child(2) th h2:nth-child(2){
+    font-size: 1.13rem; font-weight: 500; letter-spacing: -0.02rem;
+}
+.plan thead tr:nth-child(2) th h2:last-child,
+.plan thead tr:nth-child(2) th h2:nth-child(3){
+    font-size: 1.13rem; font-weight: 500;
+}
+.plan thead tr:nth-child(2) th p {
+    font-size: 0.88rem; line-height: 1.5;
+}
+/*====================== tbody */
+.plan tbody {}
+.plan tbody tr {}
+.plan tbody tr * {
+    font-weight: 500;
+    padding: 20px;
+    text-align: center;
+}
+.plan tbody tr th {
+    width: 250px;
+}
+.plan tbody tr td {width: 170px;}
+.plan tbody tr td:nth-child(2) {width: 150px; font-weight: 700;}
+.plan tbody tr td em {color: #ee239b; padding: 0;}
+.plan tbody tr td:nth-child(3) {width: 350px;letter-spacing: -0.02rem;}

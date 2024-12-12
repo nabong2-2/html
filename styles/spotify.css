@@ -1,0 +1,27 @@
+body {background-color: #222;}
+main {background-color: lightslategray; width: 500px; margin: 97px auto 0; /* 부모의 너비값 고정이 되어있을 경우 그 자식,자손 중 ㅂ,ㅡㄹ록에 해당하는 모든요소느,ㄴ부모의 너비만큼 자동으로크기를인식하기때문에 필요한 경우가 아니라면 너비 입력 안해도 댐 */}
+main h1 {text-align: center; margin: 0 0 87px;}
+main h1 a {}
+main h1 a img {}
+main .tab_menu {
+    background-color: aqua;
+}
+main .tab_menu .active {}
+main .tab_menu a {
+    background-color: palegoldenrod;
+}
+main .tab_wrap {}
+main .tab_wrap #inFrm {}
+main .tab_wrap #inFrm ul {}
+main .tab_wrap #inFrm ul li {}
+main .tab_wrap #inFrm ul li input {}
+main .tab_wrap #inFrm ul li input[name*=name] {}
+main .tab_wrap #inFrm ul li input[name*=pw] {}
+main .tab_wrap #inFrm .stay_in {}
+main .tab_wrap #inFrm .stay_in #stay_on {}
+main .tab_wrap #inFrm .stay_in label {}
+main .tab_wrap #inFrm .btn {}
+main .tab_wrap #inFrm .btn .sign_in_btn {}
+main .tab_wrap #inFrm .fotget_pw {}
+/* sign up 클릭 시 나오는 내용 스타일 */
+main .tab_wrap #inFrm #upFrm {display: none;}
